@@ -1,0 +1,22 @@
+.text-oe {
+    font-family: 'Jim Nightshade', cursive;
+}
+
+.main-art {
+    background-image: url(Artorias1.jpg)
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.align-items-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hls-none {
+    list-style: none;
+}
