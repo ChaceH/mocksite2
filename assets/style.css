@@ -6,17 +6,103 @@
     background-image: url(Artorias1.jpg)
 }
 
+.second-art {
+    background-color: black;
+}
+
 .justify-content-center {
     display: flex;
     justify-content: center;
+    justify-content: flex-start;
 }
 
-.align-items-center{
+.justify-content-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.justify-content-end {
+    display: flex;
+    justify-content: end;
+}
+
+.justify-content-sa {
+    justify-content: space-around;
+}
+
+.align-items-center {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+}
+
+.flex-direction-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.hls-pad {
+    padding-top: 36pt;
+    padding-right: 138pt;
 }
 
 .hls-none {
     list-style: none;
+}
+
+.gt-1 {
+    color: greenyellow;
+}
+
+.fontsize-20 {
+    font-size: 20pt;
+}
+
+.fontsize-30 {
+    font-size: 30pt
+}
+
+.fontsize-50 {
+    font-size: 50pt;
+}
+
+.fontsize-90 {
+    font-size: 90pt;
+}
+
+.row-height {
+    height: 550pt;
+}
+
+.row-height2 {
+    height: 485pt;
+}
+
+.row-height3 {
+    height: 150pt;
+}
+
+
+.bg-blk {
+    background-color: black;
+}
+
+.bg-gry {
+    background-image: url(lordran.jpg);
+}
+
+
+.blog-art {
+    background-image: url(Solaire.jpg)
+}
+
+.office-art {
+    background-image: url(Tarkus.jpg)
+}
+
+.expertise-art {
+    background-image: url(Siegmeyer.jpg)
+}
+
+.pt-60{
+padding-top: 60pt;
 }
